@@ -1,0 +1,32 @@
+Command=> ls -la
+total 44
+drwxr-xr-x 4 kali kali 4096 Apr 23 21:35 .
+drwxr-xr-x 5 kali kali 4096 Apr 22 09:28 ..
+drwxr-xr-x 2 kali kali 4096 Apr 24 10:37 __pycache__
+-rw-r--r-- 1 kali kali 1505 Apr 23 21:35 serveur.py
+drwxr-xr-x 2 kali kali 4096 Apr 24 10:39 tmp
+-rw-r--r-- 1 kali kali  402 Apr 22 17:28 traitant2.py
+-rw-r--r-- 1 kali kali  396 Apr 22 17:28 traitant3.py
+-rw-r--r-- 1 kali kali 1490 Apr 23 20:16 traitant4.py
+-rw-r--r-- 1 kali kali  205 Apr 22 17:08 traitant.py
+-rw-r--r-- 1 kali kali 1893 Apr 23 21:21 webshell1.py
+-rw-r--r-- 1 kali kali 3002 Apr 24 10:37 webshell2.py
+Command=> read
+/bin/sh: 1: read: arg count
+Command=> echo "Hello"
+Hello
+Command=> ls -la
+total 44
+drwxr-xr-x 4 kali kali 4096 Apr 23 21:35 .
+drwxr-xr-x 5 kali kali 4096 Apr 22 09:28 ..
+drwxr-xr-x 2 kali kali 4096 Apr 24 10:37 __pycache__
+-rw-r--r-- 1 kali kali 1505 Apr 23 21:35 serveur.py
+drwxr-xr-x 2 kali kali 4096 Apr 24 10:39 tmp
+-rw-r--r-- 1 kali kali  402 Apr 22 17:28 traitant2.py
+-rw-r--r-- 1 kali kali  396 Apr 22 17:28 traitant3.py
+-rw-r--r-- 1 kali kali 1490 Apr 23 20:16 traitant4.py
+-rw-r--r-- 1 kali kali  205 Apr 22 17:08 traitant.py
+-rw-r--r-- 1 kali kali 1893 Apr 23 21:21 webshell1.py
+-rw-r--r-- 1 kali kali 3002 Apr 24 10:37 webshell2.py
+Command=> echo "Hello World"
+Hello World
